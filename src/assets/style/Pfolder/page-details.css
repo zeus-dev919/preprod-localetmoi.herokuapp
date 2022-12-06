@@ -1,0 +1,317 @@
+.text-bold {
+    font-weight: bold;
+}
+
+div.page-item {
+    position: relative;
+}
+
+div.page-item .__title,
+div.page-item .__title input,
+div.page-item .__description,
+div.page-item .__description textarea,
+div.page-item .__description input,
+div.page-item .__description select,
+div.page-item .__subpages input {
+    background-color: #ebebeb ;
+}
+
+div.page-item i.fa-trash,
+div.page-item i.fa-fan {
+    position: absolute;
+    top: -0.5rem;
+    right: 0.25rem;
+    color: #faa61a;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+i.fa-fan {
+    color: #faa61a;
+    background: #ffffff;
+    border-radius: 50%;
+    -webkit-animation:processing-spinner 1s linear infinite;
+    -moz-animation:processing-spinner 1s linear infinite;
+    animation:processing-spinner 1s linear infinite;
+}
+
+div.page-item i.fa-arrows-alt {
+    position: absolute;
+    top: -0.5rem;
+    left: 0.25rem;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+div.page-item .dnd-handle:hover,
+div.page-item i.fa-trash:hover {
+    cursor: pointer;
+    color: #ec008c;
+    background-color: #bcbdc0;
+}
+
+div.page-item .__subpages,
+div.page-item .__subpages input {
+    font-size: 0.75rem;
+}
+div.page-item .__subpages input {
+    text-align: center;
+}
+
+div.page-item.sample-page .__description {
+    height: 133px;
+    text-align: center;
+}
+
+div.page-item.sample-page:hover .__title,
+div.page-item.sample-page:hover .__description {
+    background-color: #bcbdc0;
+    cursor: pointer;
+}
+div.page-item.sample-page .__description i.fa-plus {
+    background-color: #bcbdc0;
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 2rem;
+}
+div.page-item.sample-page:hover .__description i.fa-plus {
+    color: #ffffff;
+    background-color: #faa61a;
+}
+
+#accordion-agenda div.__description {
+    padding: 5px 15px;
+}
+
+#accordion-agenda div.team__input-separator {
+    margin: 4px 0;
+}
+
+#accordion-agenda label.team__label {
+    font-size: 13px;
+}
+
+#accordion-agenda div.__description__services-input,
+#accordion-agenda div.__description__role-input,
+#accordion-agenda div.__description__mail-input,
+#accordion-agenda div.__description__firstname-input,
+#accordion-agenda div.__description__phone-input,
+#accordion-agenda div.__description__name-input,
+#accordion-agenda div.__description__hours-input,
+#accordion-agenda div.__description__service_name-input,
+#accordion-agenda div.__description__service-input,
+#accordion-agenda div.__description__service_price-input,
+#accordion-agenda div.__description__duration_field,
+#accordion-agenda div.__description__service_gap_time-input,
+#accordion-agenda div.__description__resource_name-input,
+#accordion-agenda div.__description__resource-input,
+#accordion-agenda div.__description__resource_number-input,
+#accordion-agenda div.__description__resource_price-input,
+#accordion-agenda div.__description__resource_duration-input {
+    padding: 0;
+}
+
+#accordion-agenda div.__description__services-input input,
+#accordion-agenda div.__description__role-input select,
+#accordion-agenda div.__description__mail-input input,
+#accordion-agenda div.__description__firstname-input input,
+#accordion-agenda div.__description__phone input,
+#accordion-agenda div.__description__name input,
+#accordion-agenda div.__description__hours input,
+#accordion-agenda div.__description__service_name input,
+#accordion-agenda div.__description__service input,
+#accordion-agenda div.__description__service_price input,
+#accordion-agenda div.__description__duration_field input,
+#accordion-agenda div.__description__duration_field select,
+#accordion-agenda div.__description__service_gap_time input,
+#accordion-agenda div.__description__resource_name input,
+#accordion-agenda div.__description__resource input,
+#accordion-agenda div.__description__resource_number input,
+#accordion-agenda div.__description__resource_price input,
+#accordion-agenda div.__description__resource_duration input,
+#accordion-agenda div.__description__visio_name-input > span > input,
+#accordion-agenda div.__description__visio-input > span > input,
+#accordion-agenda #team-tree div.time-ranges-decoration > fieldset > div > div {
+    background-color: transparent;
+}
+
+#accordion-agenda div.page-item.sample-page:hover .__description i.fa-plus,
+#accordion-agenda #agenda-service-tree div.page-item.sample-page:hover .__description i.fa-plus,
+#accordion-agenda #resource-tree div.page-item.sample-page:hover .__description i.fa-plus,
+#accordion-agenda #visio-tree div.page-item.sample-page:hover .__description i.fa-plus {
+    color: #ffffff;
+    background-color: #faa61a;
+}
+
+#team-tree div div .agenda__informations,
+#services-tree div div .agenda__informations,
+#visio-tree div div .visio__informations {
+    color: #ec008c !important;
+}
+
+#crm-agenda div div .__informations {
+    color: #009933 !important;
+}
+
+#notification-agenda div div .__important__informations {
+    color: #ec008c !important;
+    font-weight: bold;
+}
+
+#notification-agenda div div .__informations {
+    color: #ec008c !important;
+}
+
+#notification-agenda div div .__important__label {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#agenda-service-tree div div,
+#booking-service-tree div div,
+#resource-tree div div,
+#team-tree-page > div > div:nth-child(1),
+#visio-tree-page > div > div {
+    padding: 8px !important;
+}
+
+#agenda-service-tree div div .__title,
+#booking-service-tree div div .__title,
+#booking-service-tree div div .__title,
+#resource-tree div div .__title,
+#team-tree-page div div .__title,
+#visio-tree-page div div .__title {
+    font-size: 16px;
+    padding: 0 12px;
+    font-weight: bold;
+}
+
+#accordion-table-booking #booking-service-tree .service-time-range-container {
+    margin: 0.5em;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 3px 0 #999999;
+    position: relative;
+}
+
+#accordion-table-booking #booking-service-tree .service-time-range-container > i.fa-trash {
+    top: .25rem;
+    right: .25rem;
+    background: #ebebeb;
+    box-shadow: -1px -1px 2px 0 #999999;
+}
+
+#accordion-table-booking #booking-service-tree .service-time-range-container div div {
+    padding: 2px 8px !important;
+}
+
+#accordion-table-booking #booking-service-tree .service-time-range-container div.b-calendar div,
+#agenda-service-tree div.b-calendar div,
+#booking-service-tree div.b-calendar div,
+#resource-tree div.b-calendar div {
+    padding: initial !important;
+}
+
+#accordion-table-booking #booking-service-tree .service-time-range-container .time-container {
+    position: relative;
+}
+
+#accordion-table-booking #booking-service-tree .service-time-range-container .time-container > span {
+    position: absolute;
+    bottom: 0;
+}
+
+#accordion-table-booking #booking-service-tree .service-time-range-container,
+#accordion-table-booking #booking-service-tree .service-time-range-container .__description,
+#accordion-table-booking #booking-service-tree .service-time-range-container input,
+#accordion-table-booking #booking-service-tree .service-time-range-container textarea,
+#accordion-table-booking #booking-service-tree .service-time-range-container select {
+    background-color: #ffffff;
+}
+
+#accordion-table-booking #booking-service-tree .service-time-range-container input:hover,
+#accordion-table-booking #booking-service-tree .service-time-range-container textarea:hover,
+#accordion-table-booking #booking-service-tree .service-time-range-container select:hover {
+    background-color: #f0f0ff;
+}
+
+#accordion-table-booking #booking-service-tree #add-time-range.add-item-action {
+    background: #ffffff;
+    box-shadow: 2px 2px 3px 0 #999999;
+}
+
+#accordion-table-booking #booking-service-tree #add-time-range.add-item-action.disabled {
+    background: #bcbdc0;
+    cursor: not-allowed;
+}
+
+#accordion-table-booking #booking-service-tree .service__entitle,
+#accordion-table-booking #booking-service-tree .service__entitle * {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#accordion-table-booking #booking-service-tree .service__entitle label {
+    font-weight: bold;
+}
+
+#accordion-table-booking #booking-service-tree div.b-form-datepicker {
+    padding: 2px !important;
+}
+
+#accordion-table-booking #booking-service-tree .days-of-week,
+#accordion-table-booking #booking-service-tree .days-of-week fieldset,
+#accordion-table-booking #booking-service-tree .days-of-week fieldset div.bv-no-focus-ring,
+#accordion-table-booking #booking-service-tree .days-of-week fieldset div.bv-no-focus-ring div.b-form-tags {
+    padding: 8px 8px 0 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#accordion-table-booking #booking-service-tree .days-of-week .b-form-tags {
+    background: transparent;
+}
+
+.input-element {
+    align-self: flex-end;
+}
+
+.draggable-tree {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.zone {
+    border: 2px dashed #faa61a;
+    margin-bottom: 5px;
+}
+
+.dnd-ghost {
+    border: 2px dotted #ec008c;
+    box-shadow: 2px 2px 10px #bcbdc0;
+    margin: 2px 0;
+    padding: 5px;
+    filter: brightness(.8);
+    background: #fefefe;
+}
+
+.info-field {
+    font-weight: bold;
+    color: #ec008c;
+}
+
+@media (min-width: 992px) {
+    .pages-container div.page-item.col-lg-3 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 992px) {
+    .input-element {
+        margin-top: 10px;
+    }
+}

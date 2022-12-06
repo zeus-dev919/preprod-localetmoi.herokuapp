@@ -1,0 +1,77 @@
+.cells {
+    float: left;
+    text-align: left;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid #dee2e6;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.top-line {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.line:hover {
+    background-color: #dee2e6;
+}
+
+.subscription-list-container {
+    margin-top: 2%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 777px) {
+    .subscription-list-container {
+        overflow: auto;
+    }
+}
+
+.mail-cell {
+    min-width: 10em;
+}
+
+.subscription-btn {
+    background-color: #ec008c;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;    
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.subscription-action-btn {
+    background-color: transparent;
+    height: 16px;
+    margin: 0 5px;
+}
+
+.add-subscription-btn {
+    float: left;
+}
+
+.export-btn {
+    float: right;
+}
+
+.create-subscription-modal {
+    padding: 1.5em;
+}
+
+.site-selector {
+    margin-top: 2%;
+}
+
+.margin-subscription {
+    padding-bottom: 36%;
+}
+
+.error-subscription {
+    font-size: 10px;
+    color: red;
+}
+
+.no-subscription {
+    margin-top: 1%;
+}

@@ -1,0 +1,88 @@
+#app .btn-info {
+    color: black;
+    background-color: #c2c2c2;
+    border-color: #c2c2c2;
+    padding: 1em !important;
+    text-align: left !important;
+}
+
+#app .btn-info:focus,
+#app .btn-info.focus {
+    box-shadow: none !important;
+}
+
+.card-body {  
+    background-color: #ebebeb !important;
+    text-decoration: none !important;
+}
+
+.card-body p, a { 
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.card {
+    border: none !important;
+}
+
+.current-menu {
+    color: #EC008C !important;
+}
+
+.current-section {
+    background-color: #EC008C !important;
+    border-color: #EC008C !important; 
+    color: white !important;
+}
+
+.logo-menu-container {
+    display: inline;
+    padding-right: 0 !important;
+    white-space: nowrap;
+}
+
+.customerRef-menu {
+    float: right;
+}
+
+.ref-sageCode {
+    font-weight: bold;
+}
+
+.welcome-message {
+    color: #7e8792;
+    float: left;
+    font-size: calc(.7rem + .2vw);
+}
+.startAccess {
+    margin-top: 100px;
+}
+@media screen and (max-width: 578px) {
+    .welcome-message {
+        font-size: 3.8vw;
+    }
+}
+
+.ref-section {
+    margin-top: 1%;
+}
+
+.ref-section-drop {
+    margin-top: -2%;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.uberall-link {
+    color: grey !important;
+    cursor: default !important;
+    pointer-events: none;
+}
+
+.uberall-link-available {
+    color: black !important;
+    cursor: pointer !important;
+    pointer-events: auto;
+}

@@ -1,0 +1,254 @@
+.report-link {
+    text-decoration: underline !important;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.logo-details {
+    width: 80%;
+    max-width: 5em;
+    font-size: 13px;
+}
+
+.tools {
+    margin-top: 8%;
+}
+
+.subtitle {
+    font-size: 13px;
+}
+.img-logo {
+    float: left;
+    margin-left: 5%;
+}
+
+.text-list {
+    margin-left: 5%;
+    text-align: center;
+    float: left;
+}
+
+.list-widget {
+    background-color: #f0f0f0;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    padding-top: 1.2em;
+    padding-bottom: 3.2em;
+    margin-bottom: 4%;
+    color: #7e8792;
+    font-size: 12px; 
+}
+
+.list-effect {
+    color: #ec008c;
+}
+
+.list-effect:hover {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.4);
+}
+
+.img-status {
+    float: right;
+    margin-right: 5%;
+}
+
+.loader {
+    margin-top: 20%;
+    margin-left: 50%;
+}
+
+.loaderToolbox {
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.margin-menu {
+    margin-top: 2%;
+}
+
+.visibilty-container {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.message {
+    margin-top: 16px;
+}
+
+.envelop {
+    margin-bottom: 5px;
+}
+
+.nbr-visits {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 7.2em;
+    margin-top: -4em;
+}
+
+.chart-circle {
+    pointer-events: none;
+    width: 20em !important;
+    height: 10em !important;
+}
+
+.chart-circle-no-vis {
+    pointer-events: none;
+    width: 24em !important;
+    height: 12em !important;
+    margin-left: 4em;
+}
+
+.nbr-visits-no-vis {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 12em;
+    margin-top: -5em;
+}
+
+.audience-button {
+    margin-top: 2%;
+    cursor: pointer;
+    background-color: #ec008c;
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn-at-internet-report {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #ec008c;
+    font-size: 1.1em;
+    border-radius: 60px;
+    padding: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 340px;
+}
+
+.btn-at-internet-report img {
+    margin-bottom: -20px;
+}
+
+.btn-at-internet-report:hover {
+    background-color: #ffa300;
+}
+
+.btn-at-internet-report a:hover {
+    text-decoration: none;
+}
+
+.audience-button-toolbox {
+    cursor: pointer;
+    background-color: #ec008c;
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.audience-button-toolbox > a {
+    color: #fff !important;
+}
+
+.listing-zone {
+    margin-bottom: 4%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.circle-nbr {
+    margin-left: 11%;
+}
+
+.circle-nbr-no-vis {
+    margin-left: 37%!important;
+}
+
+.unavailable-atinternet {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+.audience-element {
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 195px;
+    margin-bottom: 10px;
+    margin-right: 7%;
+}
+
+.uberall-autologin-link {
+    text-decoration: none;
+    background: #2E2F2F;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    color: white !important;
+    font-size: .8em;
+}
+
+.uberall-autologin-link img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.uberall-autologin-link:hover {
+    text-decoration: none;
+    background: #E40087;
+    cursor: pointer;
+}
+
+.metric-value {
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.fix-height-50 {
+    max-height: 50%;
+}
+
+.audience-header {
+    border: 1.5px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+}
+
+.audience-header .element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e0e0e0;
+    padding: 11px 0 11px 0;
+}
+
+.audience-header .element h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.audience-header .calendar-element {
+    align-self: center;
+    margin-top: 10px;
+}
+
+.statistiques-container {
+    background: #F5F5F5;
+}
+
+.reportrange-text {
+    border: 0 !important;
+}
+.vue-daterange-picker {
+    width: 100%;
+}
+.vue-daterange-picker .daterangepicker.show-calendar {
+    box-shadow: 3px 3px 10px 0 #999999;
+}

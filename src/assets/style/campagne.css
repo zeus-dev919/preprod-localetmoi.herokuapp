@@ -1,0 +1,128 @@
+.title-zone {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 4%;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.6);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.metric {
+  color: black ;
+  text-align: right;
+  margin-right: 1em;
+  font-size: 33px;
+  font-weight: bold;
+  padding-top: 25px;
+
+}
+
+.img-metric {
+    width: 2em;
+    float: left;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.value-zone {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    color: #7e8792;
+    height: 6em;
+    margin-bottom: 12%;
+}
+
+.fix-height-120 {
+    height: 120px;
+}
+
+.campaign-element {
+    background: #E5E5E5;
+    border-radius: 5px;
+    position: relative;
+}
+
+.campaign-element .picto-info {
+    color: #212529;
+    border-radius: 100%;
+    border: 1px solid #212529;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px;
+    position: absolute;
+    top: -0.75rem;
+    right: 0.75rem;
+}
+
+.campaign-element .picto-info:hover {
+    color: #ec008c;
+    border-color: #ec008c;
+    cursor: help;
+}
+
+.audience-header .calendar-element .daterangepicker.show-calendar {
+    box-shadow: 3px 3px 10px 0 #999999;
+}
+
+.metric-title {
+    font-weight: 800;
+    font-size: 1.25em !important;
+}
+
+.metric-value {
+    font-weight: 800;
+    font-size: 2em !important;
+}
+
+.metric-label {
+    font-size: 12px;
+}
+
+.total-device-clicks-container {
+    position: absolute;
+    width: 3em;
+    top: calc(40% + 1vw);
+    font-size: 2em;
+    font-weight: bold;
+    left: calc(50% - 1.5em);
+    cursor: default;
+}
+
+.top-keywords-table {
+    border-top: 1px solid #bcbdc0;
+}
+
+.container-color  {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #f0f0f0!important;
+}
+
+.container-title-red {
+    background-color: #ec008c; 
+}
+
+.container-title-yellow {
+    background-color: #faa61a; 
+}
+
+.container-title-grey {
+    background-color: #bcbdc0; 
+}
+
+.no-adplorer {
+    padding-bottom: 2%;
+    font-style: italic;
+}
+
+.demo-campaign {
+    cursor: pointer;
+    background-color: #ec008c;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}

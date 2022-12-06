@@ -1,0 +1,38 @@
+.presentation-container {
+    margin-top: 1%;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.video {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.video-title {
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.more-video-link {
+    background-color: #EC008C;
+    padding: 1em;
+    max-width: 17.5em;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: solid 1px;
+    white-space: nowrap;
+    color: white;
+    text-decoration: none;
+}
+
+.video-access {
+    padding: 1em;
+    margin-bottom: 5%;
+}

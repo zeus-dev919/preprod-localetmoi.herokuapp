@@ -1,0 +1,30 @@
+button.btn-generate-qrcode {
+    margin-top: -4px;
+}
+
+button.btn-generate-qrcode:not([disabled]):hover img {
+    filter: invert(100%);
+}
+
+button.btn-download-qrcode {
+    color: #ec008c;
+    border-color: #ec008c;
+}
+
+button.btn-download-qrcode:hover {
+    background: #ec008c;
+    border-color: #ec008c;
+}
+
+button.btn-download-qrcode img {
+    width: 35px;
+    height: 35px;
+}
+
+button.btn-download-qrcode:hover img {
+    filter: invert(100%) brightness(100);
+}
+
+a.qrcode-download-link {
+    display: none;
+}

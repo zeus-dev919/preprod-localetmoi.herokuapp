@@ -1,0 +1,13 @@
+#progress {
+    position: relative !important;
+    top: 60px !important;
+}
+
+#progress-tickets {
+    position: relative !important;
+    top: 11px !important;
+}
+
+#domain-progress {
+    position: relative !important;
+}

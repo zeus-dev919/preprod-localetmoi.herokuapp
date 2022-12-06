@@ -1,0 +1,63 @@
+.attachment {
+    cursor: pointer;
+    font-style: italic;
+    color: grey !important;
+    float: left;
+    margin-right: 7px;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.attachment:hover {
+    text-decoration: underline !important;
+    background-color: #eee;
+}
+
+.phone-nbr {
+    min-height: 2.5em;
+    float: right !important;
+    color: #FAA61A !important;
+    font-weight: bold !important;
+}
+
+.logo-attachment {
+    width: 18px;
+    margin-left: 7px;
+    margin-top: -7px;
+}
+
+.see-more {
+    cursor: pointer;
+}
+
+.message-container {
+    border-top: solid 1px #e1e1e1;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.attachment-title {
+    margin-top: 2%!important;
+}
+
+.margin-att {
+    padding-bottom: 3em;
+}
+
+.messages-section {
+    margin-top: 2%;
+}
+
+.messages-subject {
+    margin-top: -15px;
+}
+
+.margin-msg {
+    padding-bottom: 47%;
+}
+
+.no-cursor {
+    cursor: default;
+}

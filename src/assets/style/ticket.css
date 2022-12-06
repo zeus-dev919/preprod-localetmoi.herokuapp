@@ -1,0 +1,281 @@
+
+.ticket-form {
+    padding: 2em;
+    margin-top: 1em;
+    background-color: #ebebeb;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.validate-button {
+    background-color: #db257d;
+    float: right;
+}
+
+.submit-button {
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #EC008C;
+    color: white !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-button:disabled,
+.disabled {
+    background-color: #ddd !important;
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 500px) {
+    .validate-button {
+        float: none;
+    }
+}
+
+.btn-success, .btn-success:hover {
+    color: white;
+    background-color: blue !important;
+    border-color: blue !important;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.ticket-style {
+    border-bottom: solid 1px #e1e1e1;
+    padding: 10px;
+    overflow: hidden;
+}
+
+img.ticket-attachment {
+    width: 1rem;
+}
+
+.create_ticket_button {
+    min-width: 10em;
+    padding-top: 10px;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    background-color: #f69b0a;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.header-ticket {
+    margin-top: 8px;
+}
+
+.tickets-subject {
+    color: #faa61a;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tickets-subject .ticket-date {
+    font-size: smaller;
+}
+
+.tickets-status {
+    font-weight: bold;
+    float: right;
+    text-align: right;
+}
+
+.sort-tickets-new,
+.sort-tickets-opened,
+.sort-tickets-pending,
+.sort-tickets-closed,
+.sort-tickets-done,
+.sort-tickets-all {
+    color: white;
+    height: 37px;
+    text-align: center;
+}
+
+.sort-tickets-text {
+    padding: 7px;
+    font-size: 13px;
+    color: white !important;
+    border-bottom: none !important;
+}
+.sort-tickets-new {
+    color: white;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #007bff;
+    border: solid 1px #007bff;
+}
+
+.sort-tickets-opened {
+    background-color: #faa61a;
+    border: solid 1px #faa61a;
+}
+
+.sort-tickets-pending {
+    background-color: #ec008c;
+    border: solid 1px #ec008c;
+}
+
+.sort-tickets-done {
+    background-color: #00cc99;
+    border: solid 1px #00cc99;
+}
+
+.sort-tickets-closed {
+    background-color: #009933;
+    border: solid 1px #009933;
+}
+
+.sort-tickets-all {
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sort-tickets-text-black {
+    margin-top: 7px;
+    font-size: 13px;
+    color: black !important;
+    border-bottom: none !important;
+}
+
+input[type="file"] {
+    position: absolute;
+    top: -500px;
+}
+
+span.remove-file {
+    color: red;
+    cursor: pointer;
+    float: right;
+}
+
+.link-delete {
+    text-align: center;
+}
+
+.file-link {
+    color: grey !important;
+    font-style: italic !important;
+    border-bottom: none !important;
+}
+
+.file-link:hover {
+    text-decoration: underline !important;
+}
+
+.modal-input {
+    padding:30px;
+    text-align: center;
+    color: black;
+}
+
+.tickets-button {
+    margin-top: 2%;
+}
+
+.ticket-container {
+    margin-top: 1%;
+}
+
+.line-break {
+    white-space: pre;
+}
+
+.menu-asks {
+    margin-left: -1%;
+    margin-top: 2%;
+}
+
+.margin {
+    margin-bottom: 15%;
+}
+
+.loader-demandes {
+    margin-top: 17%;
+    margin-left: 48%;
+    margin-bottom: 19%;
+}
+
+.msg-content {
+    margin: 0;
+    line-height: 20px;
+}
+
+.left-arrow {
+    width: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.main-subject {
+    cursor: pointer;
+}
+
+.main-subject:hover {
+    background-color: #ebebeb;
+}
+
+.ticket-spinner {
+    left: 50%;
+    top: 30px;
+    z-index: 2;
+}
+
+.uploaded-file > i {
+    color: #68cd86;
+}
+
+.error-file > i {
+    color: #dc3545;
+}
+
+.uploading-file > i {
+    color: #faa61a;
+    -webkit-animation: upload-file-spinner 1s linear infinite;
+    -moz-animation: upload-file-spinner 1s linear infinite;
+    animation: upload-file-spinner 1s linear infinite;
+}
+.my-3 div .delete-file {
+    cursor: pointer;
+}
+
+@-moz-keyframes upload-file-spinner {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes upload-file-spinner {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes upload-file-spinner {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

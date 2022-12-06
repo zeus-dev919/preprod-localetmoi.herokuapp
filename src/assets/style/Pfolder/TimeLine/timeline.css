@@ -1,0 +1,107 @@
+.checked {
+    background: #f69b0a;
+}
+
+.display-step-button {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.display-step-button-elements {
+    display: flex;
+    flex-direction: row;
+    margin-left: -20px;
+}
+
+.timeline-item-container div.timeline-line {
+    float: left;
+    width: calc(80% - 2em);
+    height: 4px;
+    background: #c2c2c2;
+    margin-top: 17px;
+}
+
+.timeline-item-container div.timeline-line.timeline-disabled {
+    background: #c2c2c2;
+}
+
+.timeline-item-container div.timeline-line.timeline-valid {
+    background: #508252;
+}
+
+.timeline-item-container div.timeline-line.timeline-active {
+    background: #faa61a;
+}
+
+.timeline-item-container .step-text {
+    text-align: center;
+    position: absolute;
+    width: 200px;
+    left: -100px;
+}
+
+.timeline-item-container .step-text .step-level-text {
+    font-weight: bold;
+}
+
+.timeline-item-container .btn-validate-container {
+    margin-top: 4em;
+    width: 16em;
+    margin-left: -8em;
+    text-align: center;
+}
+
+.timeline-item-container .btn-validate-container img {
+    margin-right: .25em;
+    margin-bottom: .25em;
+    width: 2.5em;
+}
+
+.transmit-valid {
+    content: url(../../../circle-valid-step-button.svg);
+    width: 39px;
+}
+
+.transmit-valid.active {
+    content: url(../../../circle-valid-active-step-button.svg);
+}
+
+.transmit-btn {
+    cursor: pointer;
+}
+
+.transmit-btn img {
+    width: 50px;
+}
+
+.is-valid-text {
+    color: #508252;
+}
+
+.unavailable-timeline {
+    cursor: not-allowed;
+}
+
+.count-down {
+    position: absolute;
+    left: 25%;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    margin-top: .5rem;
+    flex-direction: column;
+    background-color: #eeeeee;
+    color: #faa61a;
+}
+
+.count-down-value {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.1em;
+}
+
+.count-down-text {
+    color: #777777;
+    font-size: 10px;
+}

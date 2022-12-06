@@ -1,0 +1,196 @@
+.dragdrop-container {
+    padding: 1em;
+}
+
+.dragdrop-container .drop-zone form {
+    display: block;
+    height: 19vw;
+    border: dashed #c2c2c2;
+    margin: auto;
+    text-align: center;
+    color: black;
+    border-radius: 4px;
+    margin-bottom: 4%;
+    cursor: pointer;
+    min-height: 12em;
+    overflow: auto;
+}
+
+.dragdrop-container .drop-zone form:hover {
+    border: dashed #ffa300;
+}
+
+.dragdrop-container .drop-zone form div.file-listing {
+    width: 100%;
+    text-overflow: ellipsis;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.dragdrop-container .drop-zone form div.file-listing img {
+    height: 30px;
+}
+
+.dragdrop-container .drop-zone a.submit-button {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #EC008C;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.dragdrop-container .drop-zone a.submit-button.disabled {
+    background-color: #ddd !important;
+    cursor: not-allowed;
+}
+
+.dragdrop-container .content-zone {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dragdrop-container .content-zone .upload-logo {
+    margin-top: 22%;
+}
+
+.dragdrop-container .content-zone .uploading {
+    background-color: #faa61a;
+}
+
+.dragdrop-container .content-zone div .delete-file {
+    float: right;
+    cursor: pointer;
+    width: 15px !important;
+}
+
+.dragdrop-container .content-zone .uploaded-file,
+.dragdrop-container .content-zone .uploading-file,
+.dragdrop-container .content-zone .error-file {
+    float: right;
+    margin-top: -5px;
+    width: 15px !important;
+    color: #009933;
+}
+
+.dragdrop-container .content-zone .uploading-file .fas {
+    color: #faa61a;
+    -webkit-animation:upload-file-spinner 1s linear infinite;
+    -moz-animation:upload-file-spinner 1s linear infinite;
+    animation:upload-file-spinner 1s linear infinite;
+}
+
+.dragdrop-container .content-zone .error-file {
+    color: #dc3545;
+}
+
+.dragdrop-container .content-zone .cross-preview {
+    margin-top: 4px;
+    height: 22px !important;
+    margin-right: 7px;
+}
+
+.dragdrop-container .content-zone .drop-zone {
+    width: 59%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden auto;
+}
+
+.dragdrop-container .my-files-container {
+    background-color: #bcbdc0;
+    color: white;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    line-height: 10px;
+    overflow: auto;
+}
+
+.dragdrop-container .my-files-container .my-files-entitle {
+    color: #ec008c;
+}
+
+.dragdrop-container .my-files-container .folders_list {
+    font-weight: bold;
+    color: #333333;
+    padding-left: 25px;
+}
+
+.dragdrop-container .my-files-container .folder-label {
+    cursor: pointer;
+    line-height: 1rem;
+    padding-inline-end: 25px;
+    margin-left: -25px;
+}
+
+.dragdrop-container .my-files-container .folders_list .fa-folder,
+.dragdrop-container .my-files-container .folders_list .fa-folder-open {
+    margin-right: 0.25rem;
+    color: #ec008c;
+}
+
+.dragdrop-container .my-files-container .folders_list .files_list {
+    padding-left: 1em;
+    color: black;
+}
+
+.dragdrop-container .my-files-container .folders_list .files_list li {
+    color: #ec008c;
+    margin-top: 22px;
+    margin-left: 2em;
+    font-weight: normal;
+}
+
+.dragdrop-container .my-files-container .folders_list .files_list li .open-file {
+    cursor: pointer;
+}
+
+.dragdrop-container .my-files-container .folders_list .files_list li .open-file:hover {
+    text-decoration: underline !important;
+}
+
+.dragdrop-container .my-files-container .folders_list .files_list li .open-file .filename {
+    color: #333333;
+    margin-top: -10px;
+}
+
+.dragdrop-container .my-files-container .folders_list .empty-files::after {
+    content: '(Vide)';
+    font-style: italic;
+    font-weight: normal;
+    color: #777 !important;
+}
+
+.dragdrop-container .max-size-upload-label {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+@-moz-keyframes upload-file-spinner {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes upload-file-spinner {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes upload-file-spinner {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

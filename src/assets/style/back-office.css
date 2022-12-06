@@ -1,0 +1,127 @@
+.accueil {
+    overflow: hidden;
+}
+
+#searchPartner:focus {
+    outline: 0 !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    border-color: #EC008C !important;
+}
+
+.back-office {
+    height: 50vh;
+    position: absolute;
+    top: 25%;
+    text-align: -webkit-center;
+}
+
+.back-office_header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.back-office_files {
+    margin-top: 100px;
+}
+
+.back-office_impersonate {
+    width: 250px;
+    display: table;
+    border: 2px solid #EC008C;
+    height: 100px;
+}
+
+.back-office_partnership-folder {
+    width: 250px;
+    display: table;
+    border: 2px solid #EC008C;
+    background-color: #EC008C;
+    height: 100px;
+    margin-top: 0 !important;
+}
+
+.back-office_impersonate span {
+    display: table-cell;
+    vertical-align: middle;
+    color: #EC008C;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.back-office_partnership-folder span {
+    display: table-cell;
+    vertical-align: middle;
+    color: #f0f0f0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.back-office_box {
+    width: 250px;
+    height: auto;
+}
+
+.footer-accueil {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .back-office_dropdown {
+        position: absolute !important;
+    }
+    .back-office {
+        margin-top: 100px;
+    }
+    .back-office_files {
+        margin-top: 140px;
+    }
+}
+
+@media (max-width: 992px) {
+    .back-office_impersonate {
+        margin-right: 0;
+    }
+    .back-office_partnership-folder {
+        margin-left: 0;
+    }
+    .back-office_search {
+        margin-left: 10px;
+    }
+    .margin-mobile {
+        margin-top: 1em;
+    }
+}
+
+.back-office .back-office_box .back-office_partnership-folder.disabled {
+    background-color: #bcbdc0;
+    border-color: #999;
+}
+
+.back-office .back-office_box .back-office_partnership-folder.disabled span {
+    color: #999;
+}
+
+@media screen and (max-width: 768px) {
+    .back-office {
+        margin-top: 70px;
+    }
+    .back-office_impersonate {
+        margin-right: 0;
+    }
+    .back-office_partnership-folder {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .back-office_search {
+        margin-left: 1rem;
+    }
+    .margin-mobile {
+        margin-top: 1em;
+    }
+    .back-office_files-infos {
+        margin-top: 150px;
+    }
+}

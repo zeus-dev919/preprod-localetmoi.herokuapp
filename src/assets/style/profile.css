@@ -1,0 +1,44 @@
+.billing {
+    margin-bottom: 9%;
+    word-wrap: break-word;
+}
+.communication-info {
+    margin-bottom: 7%;
+}
+
+.billing,
+.communication-info {
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    padding: 1em;
+    margin-top: 2%;
+}
+
+.hide-div {
+    display: none;
+}
+
+.info-billing {
+    position: absolute;
+}
+
+.edit-logo {
+    margin-left: 7%;
+    width: 25px;
+    cursor: pointer;
+}
+
+.margin-profile {
+    margin-top: 1%;
+}
+
+.edit-factu-infos-modal {
+    padding: 1em;
+}
+
+.menu-profile-download {
+    width: 25px;
+    float: right;
+    margin-right: 10px;
+}

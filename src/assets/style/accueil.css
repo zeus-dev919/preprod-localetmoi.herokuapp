@@ -1,0 +1,378 @@
+.button-drop-element {
+    background-color: #EC008C;
+    color: #fff;
+    font-size: 1.3em;
+    width: 85%;
+    padding: 5px;
+    box-shadow: 0 0 5px #bcbdc0;
+    animation: popup 2s infinite;
+}
+
+@keyframes popup  {
+    0% {transition: ease-in-out .2s}
+    50% {transform: scale(1.05)}
+    100% {transform: scale(1)}
+}
+
+.margin-drop-button {
+    margin-bottom: 10px;
+}
+
+.accueil {
+    overflow: hidden;
+}
+
+.button-section {
+    margin-left: 10%;
+    display: inherit;
+}
+
+.button-profile {
+    width: 100%;
+    min-width: 7em;
+    padding: 1em;
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: solid 1px;
+    white-space: nowrap;
+    color: white;
+    text-decoration: none;
+}
+
+.update-button {
+    min-width: 17em;
+    background-color: #EC008C;
+}
+
+.ask-button {
+    min-width: 17em;
+
+    background-color: #ffa300;
+}
+
+.upload-button {
+    min-width: 17em;
+
+    background-color: #c2c2c2;
+}
+
+#app .btn-info {
+    color: #fff;
+    background-color: gray;
+    border-color: #17a2b8;
+}
+
+@media screen and (min-width: 992px) {
+    .menu-mobile {
+        display: none;
+        position: fixed;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .hidden-for-desktop {
+        margin-top: 1%;
+        position: fixed;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hidden-for-mobile {
+        margin-top: 1%;
+        position: fixed;
+        display: none;
+    }
+    .menu-mobile {
+        margin-left: 3%;
+    }
+    #drop-button-link {
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;
+    }
+    #drop-button-link a .button-drop-element > span {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (min-width: 992px) and  (max-width: 1359px) {
+    div.phone-and-menu.col {
+        margin-right: 10px;
+    }
+    #drop-button-link a .button-drop-element > span {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (min-width: 570px) and  (max-width: 1359px) {
+    div.phone-and-menu.col {
+        margin-right: 10px;
+    }
+    div.ref-section-drop {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 1359px) {
+    div.reference-home {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and  (max-width: 1359px) {
+    div.phone-and-menu.col {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .hidden-for-mobile-only {
+        position: relative;
+        display: none;
+    }
+    #drop-button-link {
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;
+    }
+    #drop-button-link a .button-drop-element > span {
+        font-size: 0.9em;
+    }
+}
+
+.img-big {
+    width: 107%;
+    margin-left: 0.8%;
+}
+
+.link-menu {
+    text-decoration: none !important;
+    position: relative;
+}
+
+.title-img {
+    padding: 3px 8px;
+    font-size: 15px;
+}
+
+.link-menu .title-img.off-line {
+    margin-left: calc(5vw - 3em);
+    margin-right: calc(4vw - 3em);
+    font-size: 15px;
+    cursor: not-allowed;
+}
+
+.link-menu .img-under-construction {
+    position: absolute;
+    width: calc(6em + 6vw);
+    left: calc(50% - 3em - 3vw);
+    top: calc(50% - 3em - 3vw);
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 4px #00000040;
+}
+
+.link-menu:hover {
+    cursor: pointer;
+}
+
+.link-menu.disabled:hover {
+    cursor: not-allowed;
+}
+
+.link-menu:hover > .centered {
+    display: block;
+}
+
+.img-big:hover {
+    filter: brightness(0.5);
+}
+
+.centered:hover ~ .img-big {
+    filter: brightness(0.5);
+}
+
+.img-by-3 {
+    width: 105%;
+    margin-left: 0.8%;
+}
+
+.img-by-3:hover {
+    filter: brightness(0.5);
+    overflow: hidden;
+}
+
+.centered:hover ~ .img-by-3 {
+    filter: brightness(0.5);
+}
+
+.top-section {
+    margin-top: 1%;
+    padding-bottom: 1%;
+}
+
+.centered {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    z-index: 1;
+    top: 36%;
+    font-size: 22px;
+    width: 80%;
+    left: 12%;
+}
+
+.unavailable-link {
+    pointer-events: none !important;
+    color: grey !important;
+    cursor: none;
+}
+
+.unavailable {
+    pointer-events: none;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+.menu-left-title {
+    text-transform: uppercase;
+}
+
+.title-img-section {
+    margin-left: 0.8%;
+    width: 107%;
+    color: white;
+    height: 3.4em;
+    text-decoration: none;
+}
+
+.title-img-section-big {
+    margin-left: 0.8%;
+    width: 105%;
+    color: white;
+    height: 3.4em;
+    text-decoration: none;
+}
+
+.pink {
+    background-color: #EC008C;
+}
+
+.yellow {
+    background-color: #ffa300;
+}
+
+.black {
+    background-color: black;
+}
+
+@media screen and (min-width: 1500px) {
+    .pad-right {
+        padding-right: 1.5% !important;
+    }
+}
+
+.margin {
+    margin-top: 2%;
+}
+
+@media screen and (min-width: 1256px) {
+    .on-line {
+        padding-top: 14px;
+    }
+}
+
+.tour {
+    font-size: 2em;
+    position: fixed;
+    z-index: 1;
+}
+
+.v-step[data-v-aa0cbe42] {
+    position: absolute !important;
+    background-color: black !important;
+    z-index: 1 !important;
+    width: 40em !important;
+    max-width: 100em !important;
+    opacity: 0.9;
+}
+
+.step-button {
+    background-color: #eC008c !important;
+    border: none !important;
+    cursor: pointer;
+}
+
+.title-tour {
+    font-weight: bold;
+    color: #EC008C;
+}
+
+.footer-info {
+    margin-left: 27%;
+}
+
+.cookie-message {
+    font-size: 10px;
+}
+
+.cookie__bar { 
+    padding: 5px 5px !important;
+}
+
+.cookie__bar__buttons__button {
+    padding: 5px !important; 
+    font-size: 0.6rem;
+}
+
+.cookie__bar__buttons__button--accept {
+    background: #EC008C !important; 
+}
+
+.cookie__bar__buttons__button--accept:hover {
+    background: #EC008C !important; 
+}
+
+.loader-accueil {
+    position: absolute !important;
+    z-index: 2;
+    left: calc(50% - 2rem);
+    top: calc(50% - 2rem);
+}
+
+.grey-fade {
+    width: 105%;
+    height: 100%;
+    background-color: #000000;
+    z-index: 1;
+    position: absolute;
+    opacity: 40%;
+}
+
+.match-select-padding {
+    padding-top: .5em;
+}
+
+.min-w-250 {
+    min-width: 250px;
+}
+
+.min-h-450 {
+    min-height: 450px;
+}
+
+.custom-container {
+    margin-bottom: 2em;
+    margin-left: -3px !important;
+    padding-left: 0 !important;
+}
+
+.custom-container > div {
+    padding: .5em;
+}

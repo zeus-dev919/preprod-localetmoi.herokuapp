@@ -1,0 +1,295 @@
+.my-offer {
+    border-top: solid;
+    padding: 1em;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 775px) {
+    .circle-contract,
+    .circle-red,
+    .circle-upcoming {
+        margin-left: 40%;
+    }
+}
+
+.circle-contract,
+.circle-red,
+.circle-upcoming {
+    background-color: #c2c2c2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    height: 5em;
+    line-height: 13px;
+    color: white;
+    width: 5em;
+    text-align: center;
+    cursor: help;
+}
+
+.circle-upcoming {
+    background-color: #ffa300;
+}
+
+.circle-red {
+    background-color: #EC008C;
+}
+
+.info-circle {
+    padding-top: 30%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.info-circle-resto {
+    padding-top: 25%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.info-circle-toolbox {
+    padding-top: 40%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.info-circle-toolbox-plus {
+    padding-top: 20%;
+    font-size: 11px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.info-circle-resto-reputation {
+    padding-top: 25%;
+    font-size: 10px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.info-circle-toolbox-profil {
+    padding-top: 30%;
+    font-size: 10px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.circle-active {
+    margin-top: -7px;
+    background-color: #ff008e;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    height: 6.5em;
+    color: white;
+    line-height: 18px !important;
+    width: 6.5em;
+    text-align: center;
+    cursor: help;
+}
+
+.info-circle-active {
+    padding-top: 25%;
+    font-size: 20px;
+    line-height: 18px;
+    color: white;
+    text-align: center;
+}
+
+.details-offer {
+    padding: 3%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 8%;
+    background-color: #ebebeb;
+}
+
+@media screen and (max-width: 1000px) {
+    .details-offer {
+        margin-left: 0%; 
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .box-down {
+        margin-top: -4%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .box-down {
+        margin-top: 4%;
+    }
+}
+
+.box-down {
+    min-height: 13.5em !important;
+}
+
+.rdv-site {
+    padding-bottom: 2%;
+    line-height: 10px;
+}
+
+.logo-site-bottom {
+    margin-right: 1%;
+    text-align: center;
+    margin-bottom: 1.4%;
+}
+
+.logo-unavailable {
+    background-color: #FAA61A!important;
+    opacity: 1!important;
+}
+
+.services-img {
+    opacity: 0.33;
+    height: 4vw;
+    border-radius: 7px;
+    height: 4vw;
+}
+
+@media screen and (max-width: 950px) {
+    .services-img {
+        height: 5em;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .services-img {
+        height: 5em;
+    }
+}
+
+.mon-offre {
+    margin-top: 1%;
+    margin-bottom: 2em;
+}
+
+@media screen and (min-width: 780px) {
+    .timeline {
+        background-color: black;
+        height: 2px;
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.not-webtool-size {
+    width: 70%;
+}
+
+.boost-size {
+    width: 60%;
+}
+
+.boost-size-plus {
+    width: 90%;
+}
+
+.more-infos-text, .more-infos-button {
+    margin-top: 1%;
+    float: left;
+    line-height: 18px;
+    padding: 5px;
+}
+.more-infos-button {
+    background-color: #EC008C;
+    color: white;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    float: left;
+} 
+
+.infos-customer {
+    margin-bottom: 1%;
+}
+
+.reminder {
+    float: right;
+    color: black;
+    font-size: 12px;
+}
+
+.demo-button {
+    float: right;
+    margin-top: 39%;
+}
+.ask-demo {
+    padding: 1em;
+}
+
+.description {
+    width: 7em;
+    margin-top: 1em;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.error-demo {
+    color: red;
+}
+
+.loader-site {
+    margin-top: 17%;
+    margin-left: 37%;
+    margin-bottom: 19%;
+}
+
+.product-code-tab {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: solid 1px #c9c8c5;
+    background-color: #eeeeee;
+    cursor: pointer;
+    color: grey;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.current-tab {
+    color: black;
+    background-color: white;
+    border-bottom: 0;
+}
+
+.not-found {
+    text-align: center;
+}
+
+.logo-not-found {
+    width: 40%;
+    margin-top: 5%;
+}
+
+.desc-not-found {
+    font-size: 18px;
+}
+
+.button-close {
+    width: 15px;
+    cursor: pointer;
+    float: right;
+}
+
+@media screen and (max-width: 575px) {
+    .logo-list {
+        margin-left: 12%!important;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 945px) {
+    .logo-list {
+        margin-left: 10%!important;
+    }
+}

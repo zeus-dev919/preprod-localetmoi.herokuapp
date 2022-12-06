@@ -1,0 +1,236 @@
+/*CSS du footer*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+.footer-auth, .footer-profile {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-auth {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        margin-bottom: 0;
+    }
+
+    .footer-profile {
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    body {
+        margin-bottom: 112px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        margin-bottom: 80px !important;
+    }
+}
+
+.footer-text {
+    padding: 7px 0 0 10px;
+    color: white !important;
+    background-color: #1c1819;
+    height: 7em;
+    text-align: left;
+}
+
+.border-footer {
+    border-left: solid 1px #36373c !important;
+}
+
+.follow-us {
+    text-align: left;
+    padding-top: 10px;
+    color: white;
+    background-color: #da258c;
+}
+
+.phone-number {
+    font-size: 26px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.logo-phone {
+    width: 40px;
+    font-weight: bold;
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.logo-menu-header {
+    height: 37px;
+}
+
+.logo-ask {
+    margin-left: 8px;
+    width: 25px;
+}
+
+.back-dp-button {
+    margin-left: 8px;
+    height: 37px;
+    filter: invert(0.7);
+}
+
+.back-dp-button:hover {
+    cursor: pointer !important;
+}
+
+.text-button {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 4px;
+    color: black;
+}
+
+.logo-left {
+    position: relative;
+}
+
+.header-section {
+    margin-top: 1em;
+}
+
+.rate-section {
+    float: right;
+}
+
+.logo-section {
+    display: inline-flex;
+    float: right;
+}
+
+.marge-header {
+    margin-top: 2%;
+}
+
+.marge-header-home {
+    margin-top: 1%;
+    width: 101%;
+}
+
+.follow-us-img {
+    width: 2.1em;
+}
+
+.logo-black-background {
+    height: 59%;
+}
+
+@media screen and (min-width: 575px) and (max-width: 912px) {
+    .logo-black-background {
+        height: auto;
+        width: 100%;
+    }
+    .footer-text {
+        font-size: 12px;
+    }
+    .footer-text .row {
+        margin-bottom: 0.25rem !important;
+    }
+}
+
+.create-ticket {
+    margin-top: 1%;
+    padding: 1em;
+}
+
+.logo-container-header {
+    float: right;
+}
+
+.inline-menu {
+    display: inline-block !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-menu {
+    color: black !important;
+}
+
+.backtomenu {
+    text-align: center !important;
+}
+
+.logo-dropdown {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.submit-button {
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #EC008C;
+    color: white !important;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.log-out {
+    margin-right: 11px;
+}
+
+.logo-container-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.CGU-link {
+    color: black!important;
+}
+
+.subtitle-cgu {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.title-cgu {
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.blur-content {
+    filter: blur(4px);
+    pointer-events: none;
+}

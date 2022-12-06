@@ -1,0 +1,55 @@
+.contracts {
+    margin-bottom: 2%;
+}
+
+.black-button {
+    background-color: black;
+    min-width: 6em;
+}
+
+.red-button {
+    background-color: #ec018c;
+}
+
+.yellow-button {
+    min-width: 11em;
+    background-color: #ffa300;
+}
+
+.black-button, .red-button, .yellow-button {
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.print-rib {
+    margin-bottom: 4em;
+    margin-top: 4%;
+    min-width: 25em;
+    border:solid 1px;
+}
+
+.rib-title {
+    font-size: 12px;
+}
+
+.desc-rib {
+    font-size: 12px;
+}
+
+.sepa-nbr {
+    margin-left: 4em!important;
+}
+
+.error {
+    color: red;
+}
+
+@media screen and (min-width: 800px) {
+    .contracts-field {
+        margin-top: -5.5em;
+    }
+}
+
+.iban {
+    min-height: 2.5em!important;
+}
