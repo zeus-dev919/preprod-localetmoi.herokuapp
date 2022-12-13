@@ -17,7 +17,7 @@
                                 </b-row>
                                 <b-row class="mt-5">
                                     <h1 class="video-title">Formation - WEBTOOL</h1>
-                                    <iframe width="100%" height="470px" :src="defaultTrainingURL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                    
+                                    <iframe width="100%" height="470px" :src="defaultTrainingURL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </b-row>
                             </b-col>
                         </b-row>
@@ -70,7 +70,7 @@ export default {
         return {
             localBoutiqueTrainingURL: process.env.LOCALBOUTIQUE_TRAINING_VIDEO_LINK,
             localBoutiqueAgendaTrainingURL: process.env.LOCALBOUTIQUE_AGENDA_TRAINING_VIDEO_LINK,
-            defaultTrainingURL: process.env.DEFAULT_TRAINING_VIDEO_LINK,
+            defaultTrainingURL: process.env.VITE_DEFAULT_TRAINING_VIDEO_LINK,
             localShopExpressTrainingURL: process.env.LOCALSHOP_EXPRESS_TRAINING_VIDEO_LINK,
             localShopTrainingURL: process.env.LOCALSHOP_TRAINING_VIDEO_LINK,
             isPartnerInformationLoading: true,
